@@ -1,0 +1,36 @@
+.wrapper {
+  height: 500px;
+  margin-top: 41px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px 30px;
+  .cards {
+    border-radius: 5px;
+    width: 370px;
+    height: 488px;
+    background: #fff;
+    .cards__title {
+      margin: 21px;
+      font-size: 18px;
+    }
+    .cards__text {
+      margin: 14px 21px;
+      color: #5f5f63;
+      font-size: 14px;
+    }
+    .collection {
+      display: flex;
+      justify-content: space-between;
+      margin: 51px 21px;
+      .price {
+        color: #e7426a;
+        font-size: 18px;
+      }
+      .price__logo {
+        display: flex;
+        gap: 12px;
+      }
+    }
+  }
+}
